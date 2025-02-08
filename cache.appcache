@@ -2,6 +2,10 @@ CACHE MANIFEST
 # الإصدار 1.0
 
 CACHE:
+module
+offsets
+payloads
+psfree
 cache.appcache
 index.html
 main.css
