@@ -1,0 +1,21 @@
+CACHE MANIFEST
+# الإصدار 1.0
+
+CACHE:
+index.html
+main.css
+icon0.png
+int64.js
+rop.js
+exploit.js
+custom_host_stuff.js
+module/syscalls.js
+webkit_fontface.js
+psfree/psfree.mjs
+payload_map.js
+
+NETWORK:
+*
+
+FALLBACK:
+/ /offline.html
