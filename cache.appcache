@@ -16,5 +16,6 @@ payload_map.js
 rop.js
 rop_slave.js
 weblxlt_fontface.js
+cache.appcache
 
 / /index.html
