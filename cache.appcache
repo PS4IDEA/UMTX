@@ -1,8 +1,7 @@
 CACHE MANIFEST
-# الإصدار 1.0
+# 1.0
 
 CACHE:
-# الملفات التي تُخزن محليًا
 index.html
 main.css
 icon0.png
@@ -18,10 +17,4 @@ rop.js
 rop_slave.js
 weblxlt_fontface.js
 
-NETWORK:
-# الملفات/الروابط التي تتطلب اتصالًا بالإنترنت
-*
-
-FALLBACK:
-# صفحات بديلة عند عدم الاتصال
 / /index.html
