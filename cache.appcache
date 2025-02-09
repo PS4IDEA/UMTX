@@ -2,25 +2,26 @@ CACHE MANIFEST
 # الإصدار 1.0
 
 CACHE:
-module
-offsets
-payloads
-psfree
-cache.appcache
+# الملفات التي تُخزن محليًا
 index.html
 main.css
 icon0.png
-int64.js
-rop.js
+module
+offsets
+payloads
+pstree
+custom.host_stuff.js
 exploit.js
-custom_host_stuff.js
-module/syscalls.js
-webkit_fontface.js
-psfree/psfree.mjs
+int64js
 payload_map.js
+rop.js
+rop_slave.js
+weblxlt_fontface.js
 
 NETWORK:
+# الملفات/الروابط التي تتطلب اتصالًا بالإنترنت
 *
 
 FALLBACK:
-/ /offline.html
+# صفحات بديلة عند عدم الاتصال
+/ /index.html
