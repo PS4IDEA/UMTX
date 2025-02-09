@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 1.0
+# version 1.1
 
 CACHE:
 index.html
@@ -42,8 +42,6 @@ offsets/5.00.js
 offsets/5.02.js
 offsets/5.10.js
 offsets/5.50.js
-
-
 payloads/byepervisor.elf
 payloads/elfldr.elf
 payloads/etaHEN.bin
