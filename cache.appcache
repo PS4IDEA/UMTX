@@ -2,6 +2,8 @@ CACHE MANIFEST
 # version 1.1
 
 CACHE:
+appcache_handler.js
+appcache_manifest_generator.py
 index.html
 main.css
 icon0.png
