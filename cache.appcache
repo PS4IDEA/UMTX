@@ -5,10 +5,6 @@ CACHE:
 index.html
 main.css
 icon0.png
-module
-offsets
-payloads
-pstree
 custom.host_stuff.js
 exploit.js
 int64js
