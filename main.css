@@ -96,51 +96,43 @@ a:focus {
 }
 
 #payloads-view .btn {
-    width: 100% !important;
+    border-radius: 50% !important;
+    width: 120px !important;
+    height: 120px !important;
+    padding: 0 !important;
+    background-color: #007bff !important;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.2 !important;
+    min-width: auto !important;
+    transition: all 0.3s ease-in-out;
+    margin: 1rem auto;
+}
+
+#payloads-view .btn:hover {
+    background-color: #0056b3 !important;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.5);
 }
 
 .payload-btn-title {
-    line-height: 2.5rem;
+    line-height: 1.4 !important;
     font-weight: bold;
-    font-size: 1.25rem;
-    padding: 0;
-    margin: 0;
+    font-size: 1.1rem !important;
+    padding: 0 0.5rem !important;
+    margin: 0 !important;
+    text-align: center;
 }
 
 .payload-btn-description {
-    color: var(--text-color-secondary);
-    margin: 0;
-    padding: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    line-height: 2rem;
-    font-size: 1rem;
-    max-width: 100%;
-}
-
-.btn:hover p.payload-btn-description {
-    color: var(--text-color-secondary-hover);
+    display: none !important;
 }
 
 .payload-btn-info {
-    color: var(--text-color-tertiary);
-    margin: 0;
-    padding: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    line-height: 1.5rem;
-    font-size: 0.9rem;
-    font-weight: normal;
-    line-clamp: 3;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+    display: none !important;
 }
-
-.btn:hover p.payload-btn-info {
-    color: var(--text-color-tertiary-hover);
-}
-
 
 .selected {
     opacity: 1 !important;
@@ -276,15 +268,15 @@ a:focus {
 .mb-4 { margin-bottom: 1.5rem !important; }
 
 #run-jb {
-    width: 100px; /* تحديد العرض */
-    height: 100px; /* تحديد الارتفاع ليصبح متساويًا مع العرض */
-    border-radius: 50%; /* يجعل الزر دائريًا */
-    display: flex; /* يسمح بمحاذاة النص داخل الزر */
-    align-items: center; /* محاذاة النص في المنتصف عموديًا */
-    justify-content: center; /* محاذاة النص في المنتصف أفقيًا */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #007bff; /* لون أزرق */
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
@@ -292,11 +284,11 @@ a:focus {
 }
 
 #run-jb:hover {
-    background-color: #0056b3; /* أزرق غامق عند التحويم */
+    background-color: #0056b3;
     color: white;
-    transform: scale(1.1); /* تكبير الزر قليلاً عند التحويم */
+    transform: scale(1.1);
 }
 
 #run-jb:active {
-    transform: scale(0.95); /* تأثير الضغط على الزر */
+    transform: scale(0.95);
 }
