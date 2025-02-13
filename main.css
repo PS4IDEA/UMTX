@@ -274,3 +274,29 @@ a:focus {
 .mb-2 { margin-bottom: 0.5rem !important; }
 .mb-3 { margin-bottom: 1rem !important; }
 .mb-4 { margin-bottom: 1.5rem !important; }
+
+#run-jb {
+    width: 100px; /* تحديد العرض */
+    height: 100px; /* تحديد الارتفاع ليصبح متساويًا مع العرض */
+    border-radius: 50%; /* يجعل الزر دائريًا */
+    display: flex; /* يسمح بمحاذاة النص داخل الزر */
+    align-items: center; /* محاذاة النص في المنتصف عموديًا */
+    justify-content: center; /* محاذاة النص في المنتصف أفقيًا */
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #007bff; /* لون أزرق */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+#run-jb:hover {
+    background-color: #0056b3; /* أزرق غامق عند التحويم */
+    color: white;
+    transform: scale(1.1); /* تكبير الزر قليلاً عند التحويم */
+}
+
+#run-jb:active {
+    transform: scale(0.95); /* تأثير الضغط على الزر */
+}
