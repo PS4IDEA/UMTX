@@ -1,4 +1,4 @@
-:root{
+عدل اشكال ازرار payload لشكل فقاعات  بلون ازرق غامق     :root{
     --primary-color: #333348;
     --text-color-primary: #fff;
     --text-color-secondary: #ccc;
@@ -38,6 +38,7 @@ a:focus {
     border: none;
 }
 
+
 .btn {
     padding: 1rem 2rem;
     text-align: center;
@@ -61,6 +62,7 @@ a:focus {
     background-color: #c2c2c2;
     color: #303030;
 }
+
 
 #main-content{
     position: relative;
@@ -93,52 +95,58 @@ a:focus {
     align-content: start;
 }
 
-/* التعديلات الجديدة للازرار المربعة */
 #payloads-view .btn {
-    border-radius: 4px !important;
-    width: 160px !important;
-    height: 160px !important;
-    padding: 0 !important;
-    background-color: #1a237e !important;
-    display: flex !important;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.4 !important;
-    min-width: auto !important;
-    transition: all 0.3s ease-in-out;
-    margin: 1rem auto;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
-    border: 2px solid #0d47a1 !important;
-}
-
-#payloads-view .btn:hover {
-    background-color: #0d47a1 !important;
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    width: 100% !important;
 }
 
 .payload-btn-title {
-    font-size: 1.2rem !important;
-    margin: 0 !important;
-    padding: 0 0.8rem !important;
-    text-align: center;
-    line-height: 1.6 !important;
-    color: #e3f2fd !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 600;
+    line-height: 2.5rem;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0;
+    margin: 0;
 }
 
-.payload-btn-description,
-.payload-btn-info {
-    display: none !important;
+.payload-btn-description {
+    color: var(--text-color-secondary);
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 2rem;
+    font-size: 1rem;
+    max-width: 100%;
 }
+
+.btn:hover p.payload-btn-description {
+    color: var(--text-color-secondary-hover);
+}
+
+.payload-btn-info {
+    color: var(--text-color-tertiary);
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.btn:hover p.payload-btn-info {
+    color: var(--text-color-tertiary-hover);
+}
+
 
 .selected {
     opacity: 1 !important;
     pointer-events: auto !important;
 }
+
 
 #toast-container {
     position: absolute;
@@ -172,6 +180,7 @@ a:focus {
     transform: translateY(-100%);
 }
 
+
 .l2-redirect-box {
     background: #bdc0c2;
     border-radius: 5px;
@@ -184,6 +193,7 @@ a:focus {
     font-weight: bold;
     line-height: 1;
 }
+
 
 .log {
     display: flex;
@@ -266,15 +276,15 @@ a:focus {
 .mb-4 { margin-bottom: 1.5rem !important; }
 
 #run-jb {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100px; /* تحديد العرض */
+    height: 100px; /* تحديد الارتفاع ليصبح متساويًا مع العرض */
+    border-radius: 50%; /* يجعل الزر دائريًا */
+    display: flex; /* يسمح بمحاذاة النص داخل الزر */
+    align-items: center; /* محاذاة النص في المنتصف عموديًا */
+    justify-content: center; /* محاذاة النص في المنتصف أفقيًا */
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #007bff;
+    background-color: #007bff; /* لون أزرق */
     color: white;
     border: none;
     cursor: pointer;
@@ -282,11 +292,11 @@ a:focus {
 }
 
 #run-jb:hover {
-    background-color: #0056b3;
+    background-color: #0056b3; /* أزرق غامق عند التحويم */
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.1); /* تكبير الزر قليلاً عند التحويم */
 }
 
 #run-jb:active {
-    transform: scale(0.95);
+    transform: scale(0.95); /* تأثير الضغط على الزر */
 }
