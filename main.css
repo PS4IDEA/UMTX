@@ -276,8 +276,8 @@ a:focus {
 .mb-4 { margin-bottom: 1.5rem !important; }
 
 #run-jb {
-    width: 100px; /* تحديد العرض */
-    height: 100px; /* تحديد الارتفاع ليصبح متساويًا مع العرض */
+    width: 150px; /* تحديد العرض */
+    height: 150px; /* تحديد الارتفاع ليصبح متساويًا مع العرض */
     border-radius: 50%; /* يجعل الزر دائريًا */
     display: flex; /* يسمح بمحاذاة النص داخل الزر */
     align-items: center; /* محاذاة النص في المنتصف عموديًا */
