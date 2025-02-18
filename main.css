@@ -107,41 +107,6 @@ a:focus {
     margin: 0;
 }
 
-.payload-btn-description {
-    color: var(--text-color-secondary);
-    margin: 0;
-    padding: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    line-height: 2rem;
-    font-size: 1rem;
-    max-width: 100%;
-}
-
-.btn:hover p.payload-btn-description {
-    color: var(--text-color-secondary-hover);
-}
-
-.payload-btn-info {
-    color: var(--text-color-tertiary);
-    margin: 0;
-    padding: 0;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    line-height: 1.5rem;
-    font-size: 0.9rem;
-    font-weight: normal;
-    line-clamp: 3;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-}
-
-.btn:hover p.payload-btn-info {
-    color: var(--text-color-tertiary-hover);
-}
-
-
 .selected {
     opacity: 1 !important;
     pointer-events: auto !important;
