@@ -3,14 +3,6 @@
 const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
 
 /**
- * @property {string} displayTitle
- * @property {string} fileName - path relative to the payloads folder
- * @property {string[]?} [supportedFirmwares] - optional, these are interpreted as prefixes, so "" would match all, and "4." would match 4.xx, if not set, the payload is assumed to be compatible with all firmwares
- * @property {number?} [toPort] - optional, if the payload should be sent to "127.0.0.1:<port>" instead of loading directly, if specified it'll show up in webkit-only mode too
- * @property {string?} [customAction]
- */
-
-/**
  * @type {PayloadInfo[]}
 */
 const payload_map = [
