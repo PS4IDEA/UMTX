@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary-color: #333348;
     --text-color-primary: #fff;
     --text-color-secondary: #ccc;
@@ -25,7 +25,7 @@ body {
 }
 
 input:focus {
-    outline:none;
+    outline: none;
 }
 
 a {
@@ -37,7 +37,6 @@ a:focus {
     outline: 0;
     border: none;
 }
-
 
 .btn {
     padding: 1rem 2rem;
@@ -63,8 +62,7 @@ a:focus {
     color: #303030;
 }
 
-
-#main-content{
+#main-content {
     position: relative;
     box-sizing: border-box;
 }
@@ -107,11 +105,44 @@ a:focus {
     margin: 0;
 }
 
+.payload-btn-description {
+    color: var(--text-color-secondary);
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    line-height: 2rem;
+    font-size: 1rem;
+    max-width: 100%;
+}
+
+.btn:hover p.payload-btn-description {
+    color: var(--text-color-secondary-hover);
+}
+
+.payload-btn-info {
+    color: var(--text-color-tertiary);
+    margin: 0;
+    padding: 0;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    line-height: 1.5rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.btn:hover p.payload-btn-info {
+    color: var(--text-color-tertiary-hover);
+}
+
 .selected {
     opacity: 1 !important;
     pointer-events: auto !important;
 }
-
 
 #toast-container {
     position: absolute;
@@ -145,7 +176,6 @@ a:focus {
     transform: translateY(-100%);
 }
 
-
 .l2-redirect-box {
     background: #bdc0c2;
     border-radius: 5px;
@@ -158,7 +188,6 @@ a:focus {
     font-weight: bold;
     line-height: 1;
 }
-
 
 .log {
     display: flex;
@@ -181,7 +210,7 @@ a:focus {
     border: none;
 }
 
-.position-relative { position: relative;}
+.position-relative { position: relative; }
 .position-absolute { position: absolute; }
 
 .d-none { display: none !important; }
@@ -249,15 +278,39 @@ a:focus {
     justify-content: center; /* محاذاة النص في المنتصف أفقيًا */
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: #007bff; /* لون أزرق */
+    background-color: #003366; /* لون أزرق غامق */
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+#run-jb::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 10%, transparent 10.01%);
+    background-size: 20px 20px;
+    border-radius: 50%;
+    animation: flame 2s linear infinite;
+}
+
+@keyframes flame {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 #run-jb:hover {
-    background-color: #0056b3; /* أزرق غامق عند التحويم */
+    background-color: #002244; /* أزرق غامق أكثر عند التحويم */
     color: white;
     transform: scale(1.1); /* تكبير الزر قليلاً عند التحويم */
 }
