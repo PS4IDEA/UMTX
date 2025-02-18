@@ -35,10 +35,6 @@ const payload_map = [
         displayTitle: "etaHEN",
         description: "AIO HEN",
         fileName: "etaHEN.bin",
-        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
-        projectSource: "https://github.com/LightningMods/etaHEN",
-        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
-        version: "1.9b",
         supportedFirmwares: ["3.", "4."]
     },
     {
@@ -85,12 +81,6 @@ const payload_map = [
     },
     {
         displayTitle: "websrv",
-        description: "Uses john-tornblom's elfldr. Custom homebrew loader. Runs on port 8080.",
-        fileName: "websrv.elf",
-        author: "john-tornblom",
-        projectSource: "https://github.com/ps5-payload-dev/websrv",
-        binarySource: "https://github.com/ps5-payload-dev/websrv/releases/tag/v0.18",
-        version: "0.18",
         toPort: 9021
     },
     {
