@@ -5,7 +5,6 @@ const CUSTOM_ACTION_APPCACHE_REMOVE = "appcache-remove";
 /**
  * @typedef {Object} PayloadInfo
  * @property {string} displayTitle
- * @property {string} description
  * @property {string} fileName - path relative to the payloads folder
  * @property {string} author
  * @property {string} projectSource
