@@ -33,6 +33,16 @@ const payload_map = [
     // etaHEN is added twice so that on 1.xx-2.xx you can load it in webkit only mode too
     // but on 3.xx-4.xx it only shows in kernel exploit mode since it needs the 9020 elf loader for kstuff
     {
+        displayTitle: "etaHEN_5.xx",
+        description: "AIO HEN",
+        fileName: "etaHEN_5.xx.bin",
+        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
+        projectSource: "https://github.com/LightningMods/etaHEN",
+        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        version: "2.0b",
+        supportedFirmwares: ["5.",]
+    },
+    {
         displayTitle: "etaHEN",
         description: "AIO HEN",
         fileName: "etaHEN.bin",
@@ -52,6 +62,16 @@ const payload_map = [
         version: "1.9b",
         supportedFirmwares: ["1.", "2."],
         toPort: 9021
+    },
+     {
+        displayTitle: "ps5-kstuff_5.10",
+        description: "FPKG enabler",
+        fileName: "ps5-kstuff.elf",
+        author: "sleirsgoevy",
+        projectSource: "https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff",
+        binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
+        version: "3e6053c",
+        supportedFirmwares: ["5.",]
     },
     {
         displayTitle: "ps5-kstuff",
