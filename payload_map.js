@@ -40,7 +40,7 @@ const payload_map = [
         projectSource: "https://github.com/LightningMods/etaHEN",
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
-        supportedFirmwares: ["5."]
+        supportedFirmwares: ["5.00", "5.02", "5.10", "5.50",]
     },
     {
         displayTitle: "etaHEN",
@@ -71,7 +71,7 @@ const payload_map = [
         projectSource: "https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff",
         binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
         version: "3e6053c",
-        supportedFirmwares: ["5."]
+        supportedFirmwares: ["5.10"]
     },
     {
         displayTitle: "ps5-kstuff",
