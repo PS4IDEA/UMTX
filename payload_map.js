@@ -41,7 +41,7 @@ const payload_map = [
         binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
         version: "2.0b",
         supportedFirmwares: ["5."],
-        toPort: 9021
+        toPort: 9020
     },
     {
         displayTitle: "etaHEN",
@@ -73,7 +73,7 @@ const payload_map = [
         binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
         version: "3e6053c",
         supportedFirmwares: ["5."],
-         toPort: 9021
+         toPort: 9020
     },
     {
         displayTitle: "ps5-kstuff",
