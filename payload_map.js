@@ -58,6 +58,7 @@ const payload_map = [
         description: "FPKG enabler",
         fileName: "kstuff.elf",
         supportedFirmwares: ["5.50",]
+	toPort: 9021	
     },
     {
         displayTitle: "ps5-kstuff",
