@@ -57,7 +57,7 @@ const payload_map = [
         displayTitle: "kstuff550",
         description: "FPKG enabler",
         fileName: "kstuff.elf",
-        supportedFirmwares: ["5.50",]
+        supportedFirmwares: ["5.50"],
 	toPort: 9021	
     },
     {
