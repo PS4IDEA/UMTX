@@ -43,7 +43,7 @@ const payload_map = [
         supportedFirmwares: ["3.", "4."]
     },
 	 {
-        displayTitle: "etaHEN5.xx",
+        displayTitle: "etaHEN5xx",
         description: "AIO HEN",
         fileName: "etaHEN.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
