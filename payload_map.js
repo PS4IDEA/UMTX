@@ -57,11 +57,7 @@ const payload_map = [
         displayTitle: "kstuff5xx",
         description: "FPKG enabler",
         fileName: "ps5-kstuff-2.bin",
-        author: "sleirsgoevy",
-        projectSource: "https://github.com/sleirsgoevy/ps4jb-payloads/tree/bd-jb/ps5-kstuff",
-        binarySource: "https://github.com/sleirsgoevy/ps4jb2/blob/3e6053c3e4c691a9ccdc409172293a81de00ad7f/ps5-kstuff.bin",
-        version: "3e6053c",
-        supportedFirmwares: ["5."],
+        supportedFirmwares: ["5.",]
         toPort: 9021
     },
     {
