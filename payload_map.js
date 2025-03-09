@@ -45,6 +45,17 @@ const payload_map = [
     {
         displayTitle: "etaHEN",
         description: "AIO HEN",
+        fileName: "etaHEN_1.bin",
+        author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
+        projectSource: "https://github.com/LightningMods/etaHEN",
+        binarySource: "https://github.com/LightningMods/etaHEN/releases/download/1.9b/etaHEN.bin",
+        version: "2.0b",
+        supportedFirmwares: ["5."],
+        toPort: 9021: 
+    },
+    {
+        displayTitle: "etaHEN",
+        description: "AIO HEN",
         fileName: "etaHEN.bin",
         author: "LightningMods, Buzzer, sleirsgoevy, ChendoChap, astrelsky, illusion, CTN, SiSTR0, Nomadic",
         projectSource: "https://github.com/LightningMods/etaHEN",
